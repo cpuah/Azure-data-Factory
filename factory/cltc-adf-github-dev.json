@@ -1,0 +1,9 @@
+{
+	"name": "cltc-adf-github-dev",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2e45e0d1-ae4b-4087-8cde-7799280ba527",
+		"tenantId": "608211f3-94f2-47d3-bf31-36b4f074507b"
+	}
+}
