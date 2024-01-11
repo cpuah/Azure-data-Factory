@@ -1,0 +1,18 @@
+{
+	"name": "ls_adls_source",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://adlsglbsrc.dfs.core.windows.net",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ls_kv_adfkeyvault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "sourcekey"
+			}
+		}
+	}
+}
