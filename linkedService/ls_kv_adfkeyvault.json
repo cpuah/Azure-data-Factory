@@ -1,0 +1,10 @@
+{
+	"name": "ls_kv_adfkeyvault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://cltc-kv-dev.vault.azure.net/"
+		}
+	}
+}
